@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <link rel="stylesheet" href="movie.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="home-heading">
+    <nav class="navbar-navbar">
+      <div class="navbar-main">
+        <div class="navbar-branding">
+          <a href="home.html" class="navbar-navlink">
+            <img class="indexlogo" src="img/netflixlogo.jpg" />
+          </a>
+        </div>
+        <div class="navbar-links">
+          <a href="home.html" class="link"><span>Home</span></a>
+          <a href="movie.html" class="link"><span>Movies</span></a>
+          <a href="Cart.html" class="link"><span>Watch list</span></a>
+          <a href="Introduct.html" class="link"><span>About us</span></a>
+        </div>
+        <div class="navbar-quick-actions">
+          <h3 class="user-name">Hungnp</h3>
+          <img class="user-avatar" src="img/avatar1.jpg" alt="useravatar">
+        </div>
+      </div>
+    </nav>
+  </div>
+  <hr width="1300px">
+  <div class="title-page">
+    <h2>New Movies</h2>
+  </div>
+  <section class="section-products">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 col-xl-4">
+          <div id="product-1" class="single-product">
+            <div class="part-1">
+              <div class="product-img">
+                <img class="p-poster" src="img/poster1.jpg" alt="image not found">
+              </div>
+              <ul>
+                <li><button onclick="addToCart(1)"><i class="glyphicon glyphicon-shopping-cart"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-search"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="part-2">
+              <h3 class="product-title">Portrait of a Lady on Fire</h3>
+              <h4>Price:</h4>
+              <h4 class="product-price">$5.99</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 col-xl-4">
+          <div id="product-2" class="single-product">
+            <div class="part-1">
+              <span class="discount">15% off</span>
+              <div class="product-img">
+                <img class="p-poster" src="img/poster3.jpg" alt="image not found">
+              </div>
+              <ul>
+                <li><button onclick="addToCart(2)"><i class="glyphicon glyphicon-shopping-cart"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-search"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="part-2">
+              <h3 class="product-title">Furiosa</h3>
+              <h4>Price:</h4>
+              <h4 class="product-old-price">$9.99</h4>
+              <h4 class="product-price">$5.99</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 col-xl-4">
+          <div id="product-3" class="single-product">
+            <div class="part-1">
+              <div class="product-img">
+                <img class="p-poster" src="img/poster9.jpg" alt="image not found">
+              </div>
+              <ul>
+                <li><button onclick="addToCart(3)"><i class="glyphicon glyphicon-shopping-cart"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-search"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="part-2">
+              <h3 class="product-title">Her</h3>
+              <h4 class="product-price">Price: $3.99</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 col-xl-4">
+          <div id="product-4" class="single-product">
+            <div class="part-1">
+              <div class="product-img">
+                <img class="p-poster" src="img/poster5.jpg" alt="image not found">
+              </div>
+              <ul>
+                <li><button onclick="addToCart(4)"><i class="glyphicon glyphicon-shopping-cart"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-search"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="part-2">
+              <h3 class="product-title">Poor things</h3>
+              <h4 class="product-price">Price: $5.99</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 col-xl-4">
+          <div id="product-5" class="single-product">
+            <div class="part-1">
+              <div class="product-img">
+                <img class="p-poster" src="img/poster6.jpg" alt="image not found">
+              </div>
+              <ul>
+                <li><button onclick="addToCart(5)"><i class="glyphicon glyphicon-shopping-cart"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-search"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="part-2">
+              <h3 class="product-title">The Worst Person in the World</h3>
+              <h4 class="product-price">Price: $5.99</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 col-xl-4">
+          <div id="product-6" class="single-product">
+            <div class="part-1">
+              <span class="discount">15% off</span>
+              <div class="product-img">
+                <img class="p-poster" src="img/poster7.jpg" alt="image not found">
+              </div>
+              <ul>
+                <li><button onclick="addToCart(6)"><i class="glyphicon glyphicon-shopping-cart"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-search"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="part-2">
+              <h3 class="product-title">Star Wars: The Rise of Skywalker </h3>
+              <h4>Price:</h4>
+              <h4 class="product-old-price">$9.99</h4>
+              <h4 class="product-price">$7.99</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 col-xl-4">
+          <div id="product-7" class="single-product">
+            <div class="part-1">
+              <span class="discount">Comming soon</span>
+              <div class="product-img">
+                <img class="p-poster" src="img/poster8.jpg" alt="image not found">
+              </div>
+              <ul>
+                <li><button onclick="addToCart(7)"><i class="glyphicon glyphicon-shopping-cart"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-search"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="part-2">
+              <h3 class="product-title">Dune: II</h3>
+              <h4 class="product-price">Pre Oder: $10.02</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 col-xl-4">
+          <div id="product-8" class="single-product">
+            <div class="part-1">
+              <span class="discount">15% off</span>
+              <div class="product-img">
+                <img class="p-poster" src="img/poster4.jpg" alt="image not found">
+              </div>
+              <ul>
+                <li><button onclick="addToCart(8)"><i class="glyphicon glyphicon-shopping-cart"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-search"></i></button></li>
+                <li><button><i class="glyphicon glyphicon-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="part-2">
+              <h3 class="product-title">Last Night in Soho</h3>
+              <h4>Price:</h4>
+              <h4 class="product-old-price">$79.99</h4>
+              <h4 class="product-price">$4.99</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="cartCountContainer"></div>
+  <div class="footer-footer">
+    <div class="footer-content">
+      <div class="footer-information">
+        <div class="footer-heading">
+          <img class="indexlogo" src="img/netflixlogo.jpg" alt="404 errors">
+          <span class="footer-text">Follow us via social networks:</span>
+        </div>
+        <div class="footer-socials">
+          <div class="social-social social-root-class-name">
+            <a href="https://www.elleman.vn/"><img alt="pastedImage" src="public/pastedimage-9nha.svg"
+                class="social-insider" /></a>
+          </div>
+          <div class="social-social social-root-class-name1">
+            <a href="https://www.instagram.com/phi.hung27/"><img alt="pastedImage" src="public/pastedimage-k0l6.svg"
+                class="social-insider" /></a>
+          </div>
+          <div class="social-social social-root-class-name2">
+            <a href="https://www.pinterest.com/hungphinguyen257/"><img alt="pastedImage"
+                src="public/pastedimage-ld65.svg" class="social-insider" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-column1">
+          <span class="footer-header1"><span>Contact</span></span>
+          <span class="footer-link05"><span>About</span></span>
+
+          <a href="https://www.facebook.com/"><span class="footer-link06">Facebook</span></a>
+          <span class="footer-link06">Email: hungnpbhaf200124@fpt.edu.vn | Phone: 0123456789</span></a>
+          <span class="footer-link06">Address: 124, lac long quan, Hanoi, Vietnam</span>
+        </div>
+      </div>
+    </div>
+    <span class="footer-text1">
+      <span>© 2023 online cinema design by Phi Hung. All Rights Reserved.</span>
+    </span>
+  </div>
+  </div>
+</body>
+<script src="movie.js"></script>
+
+</html>
